@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (FAISS indexes, model caches)
+data/
+*.bin
+*.index
+
+# InsightFace model cache
+~/.insightface/
+
+# Distribution
+dist/
+build/
+*.egg-info/

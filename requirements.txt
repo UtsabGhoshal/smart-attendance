@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+faiss-cpu
+python-dotenv
+pydantic
+
+# Face Recognition (Phase 2)
+# insightface 0.7.3 requires a prebuilt wheel on Windows:
+# pip install https://github.com/Gourieff/Assets/raw/main/Insightface/insightface-0.7.3-cp312-cp312-win_amd64.whl
+insightface==0.7.3
+onnxruntime
+opencv-python
+numpy<2
